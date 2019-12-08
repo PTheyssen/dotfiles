@@ -24,3 +24,9 @@ set softtabstop=4	" Number of spaces per Tab
 colorscheme desert
 syntax on
 
+" set tabs to spaces
+set expandtab
+
+"highlight past column 80
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+let &colorcolumn=join(range(81,999),",")
