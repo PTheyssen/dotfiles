@@ -24,7 +24,7 @@ set noerrorbells
 set vb t_vb=
  
 " set colorscheme 
-colorscheme desert
+colorscheme torte
 syntax on
 
 " set tabs to spaces 
@@ -37,6 +37,4 @@ set smarttab
 
 " highlight past column 80
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
-let &colorcolumn=join(range(81,999),",")
-
-
+let &colorcolumn=join(range(81,81),",")
