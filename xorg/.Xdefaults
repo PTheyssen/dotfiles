@@ -1,0 +1,25 @@
+# font color (default is black)
+URxvt.background:       #000
+URxvt.foreground:       #fff
+URxvt.color0:           #000000
+URxvt.color1:           #ff6c60
+URxvt.color2:           #a8ff60
+URxvt.color3:           #ffffb6
+URxvt.color4:           #6a96ca
+URxvt.color5:           #ff73fd
+URxvt.color6:           #c6c5fe
+URxvt.color7:           #eeeeee
+URxvt.color8:           #7c7c7c
+URxvt.color9:           #ffb6b0
+URxvt.color10:          #ceffab
+URxvt.color11:          #ffffcb
+URxvt.color12:          #b6dcfe
+URxvt.color13:          #ff9cfe
+URxvt.color14:          #dfdffe
+URxvt.color15:          #ffffff
+
+URxvt.scrollBar: false
+
+# Xft: Spleen fonts: https://github.com/fcambus/spleen
+URxvt*font: xft:Spleen32x64:pixelsize=22:antialias=true:hinting=true
+URxvt*boldFont: xft:Spleen32x64:bold:pixelsize=22:antialias=true:hinting=true
